@@ -19,10 +19,18 @@ a[href^=tel]{
 	margin: 0 auto;
 }
 
+span#hide {
+
+	display: block;
+	height: 0px;
+	text-indent: -9999px;
+}
+
 
  img {
 
-	width: 27.5%;
+	width: 260px;
+	height: 338px;
 	display: block;
 	margin: 0 auto;
 	margin-top: 60px;
@@ -37,26 +45,39 @@ a[href^=tel]{
 
 }
 
-#info p {
+#info address {
 
 	font-family: "bebas-neue", "Helvetica Neue" Helvetica, Arial, sans-serif;
 	font-size: 24px;
+	font-style: normal;
 	letter-spacing: 2px;
 	color: #445f7a;
 	text-align: center;
+	text-decoration: none;
+	margin-bottom: 10px;
 
 }
 
-#info p#title {
+#info address a {
+
+	text-decoration: none;
+	color: #445f7a;
+	
+}
+
+#info span#title {
 
 	font-family: lobster, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	color: #d07756;
 	letter-spacing: 0;
+	text-align: center;
+	display: block;
+	margin-bottom: 18px;
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 960px){
 
 	#content {
 
@@ -65,7 +86,6 @@ a[href^=tel]{
 
 	img {
 
-		width: 30%;
 		margin-top: 60px;
 		margin-bottom: 50px;
 	}
@@ -75,12 +95,12 @@ a[href^=tel]{
 		width: 90%;	
 	}
 
-	#info p {
+	#info address {
 
 		font-size: 24px;
 	}
 
-	#info p#title {
+	#info span#title {
 
 		font-size: 18px;
 	}
@@ -95,7 +115,6 @@ a[href^=tel]{
 
 	img {
 
-		width: 30%;
 		margin-top: 30px;
 		margin-bottom: 20px;
 	}
@@ -105,12 +124,12 @@ a[href^=tel]{
 		width: 90%;	
 	}
 
-	#info p {
+	#info address {
 
 		font-size: 20px;
 	}
 
-	#info p#title {
+	#info span#title {
 
 		font-size: 16px;
 	}
@@ -126,6 +145,7 @@ a[href^=tel]{
 	img {
 
 		width: 50%;
+		height: auto;
 		margin-top: 30px;
 		margin-bottom: 20px;
 	}
@@ -135,12 +155,12 @@ a[href^=tel]{
 		width: 90%;	
 	}
 
-	#info p {
+	#info address {
 
 		font-size: 20px;
 	}
 
-	#info p#title {
+	#info span#title {
 
 		font-size: 16px;
 	}
