@@ -29,13 +29,11 @@ span#hide {
 
  img {
 
-	/*width: 260px;
-	height: 338px;*/
 	display: block;
 	margin: 0 auto;
 	margin-top: 60px;
 	margin-bottom: 50px;
-	
+
 }
 
 #info {
@@ -62,7 +60,7 @@ span#hide {
 
 	text-decoration: none;
 	color: #445f7a;
-	
+
 }
 
 #info span#title {
@@ -92,7 +90,7 @@ span#hide {
 
 	#info {
 
-		width: 90%;	
+		width: 90%;
 	}
 
 	#info address {
@@ -121,7 +119,7 @@ span#hide {
 
 	#info {
 
-		width: 90%;	
+		width: 90%;
 	}
 
 	#info address {
@@ -152,7 +150,7 @@ span#hide {
 
 	#info {
 
-		width: 90%;	
+		width: 90%;
 	}
 
 	#info address {
@@ -165,5 +163,3 @@ span#hide {
 		font-size: 16px;
 	}
 }
-
-
